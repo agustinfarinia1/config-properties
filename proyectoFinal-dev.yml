@@ -3,6 +3,6 @@ spring:
     mongodb:
       database: proyectoFinal
       host: localhost
-      port: 27017
+      port: 27020
 server:
   port: 8080

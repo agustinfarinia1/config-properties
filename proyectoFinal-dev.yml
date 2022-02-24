@@ -1,8 +1,17 @@
 spring:
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
+    timeOfLife: 60000
   data:
     mongodb:
       database: proyectoFinal
       host: localhost
       port: 27017
+jwt:
+  expiration: 60000
+  secret: springbootjwtbackend
 server:
   port: 8080

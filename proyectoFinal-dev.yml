@@ -19,7 +19,7 @@ mail:
   host: smtp.gmail.com
   port: 587
   username: robotmail30@gmail.com
-  password: password123321
+  password: ehuuabqauheodmlt
   properties:
     mail:
       smtp:

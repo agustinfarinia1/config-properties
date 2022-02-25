@@ -10,22 +10,22 @@ spring:
       database: proyectoFinal
       host: localhost
       port: 27017
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: robotmail30@gmail.com
+    password: ehuuabqauheodmlt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+          starttls:
+            enable: true
 jwt:
   expiration: 1800000
   secret: springbootjwtbackend
 server:
   port: 8080
-mail:
-  host: smtp.gmail.com
-  port: 587
-  username: robotmail30@gmail.com
-  password: ehuuabqauheodmlt
-  properties:
-    mail:
-      smtp:
-        auth: true
-        connectiontimeout: 5000
-        timeout: 5000
-        writetimeout: 5000
-        starttls:
-          enable: true
